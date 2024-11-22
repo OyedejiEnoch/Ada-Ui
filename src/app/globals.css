@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+ 
+
+body {
+  color:white;
+  background: #1B1E23;
+  font-family: "Inter Tight", serif;
+}
+
+@layer base{
+  .background{
+    @apply bg-gradient-to-b from-[#9977D4] via-[#815ebd] to-[#6337AE]
+  }
+}
